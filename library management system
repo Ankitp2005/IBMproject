@@ -1,0 +1,26 @@
+class lms:
+    def __init__(self,nameofbook,auther,page,price):
+        self.nameofbook=nameofbook
+        self.auther=auther
+        self.page=page
+        self.__price=price
+
+    def display(self):
+        
+        return self.auther  
+    
+    def deposite(self):
+        return self.nameofbook
+    
+    def getlms(self):
+        return self.__price
+    def setlms(self):
+        return self.page
+    
+lms1=lms("ikigai","khushi",500,1000)
+
+
+print("the name of the author is: "lms1.display())
+print("price of the book is: "lms1.getlms())
+print("name of the book is: "lms1.setlms())
+
