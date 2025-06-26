@@ -1,0 +1,28 @@
+class ems:
+   def __init__(self,empname,empid,salary,age):
+        self.empname=empname
+        self.empid=empid
+        self.__salary=salary
+        self.age=age
+
+
+   def EmpName(self):              
+        return self.empname
+   def EmpId(self):
+        return self.empid
+   def Age(self):
+        return self.age
+   def getsalary(self):
+        return self.__salary  
+Empname1=ems("rajesh","rj1000",40000,40)
+Empname2=ems("Mohan","Mh1000",10000,27)
+Empname3=ems("khushi","Kh1000",250000,23)
+Empname4=ems("raja","rja1000",30000,30)
+
+print("salary of emp1 is :",Empname1.getsalary())
+print("emp id of emp2 is :",Empname2.EmpId())
+print("Age of emp3 is :",Empname3.Age())
+print("salary of emp4 is :",Empname4.getsalary())
+    
+
+    
